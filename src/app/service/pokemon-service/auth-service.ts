@@ -4,8 +4,8 @@ import {Observable} from "rxjs";
 
 @Injectable()
 export class AuthService {
-  EMAIL: string = "alladefabien@gmail.com"
-  PASSWORD: string = "fabien"
+  EMAIL: string = "rostandkinfack@gmail.com"
+  PASSWORD: string = "rostand"
 
   login(loginFormData: FormLoginDataType): Observable<boolean> {
     return new Observable((observer) => {
